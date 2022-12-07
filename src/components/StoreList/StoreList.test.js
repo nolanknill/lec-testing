@@ -74,4 +74,14 @@ describe("<StoreList />", () => {
         // 3. Assert
         expect(mockLoadData).toBeCalled();
     })
+
+    it("should match the snapshot", () => {
+        const snapshot = render(<StoreList 
+            stores={[]}
+            sale={true}
+            loadData={() => {}}
+        />);
+
+        expect(snapshot).toMatchSnapshot();
+    })
 });
