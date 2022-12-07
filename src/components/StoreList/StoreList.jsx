@@ -2,7 +2,7 @@ import StoreCard from "../StoreCard/StoreCard";
 
 const StoreList = ({ stores, sale, loadData }) => {
     return (
-        <div className={sale ? 'sale': ''}>
+        <section className={sale ? 'sale': ''}>
             {stores.map((item) => (
                 <StoreCard
                     key={item.id}
@@ -11,7 +11,7 @@ const StoreList = ({ stores, sale, loadData }) => {
             <button onClick={loadData}>
                 Load more stores
             </button>
-        </div>
+        </section>
     )
 }
 

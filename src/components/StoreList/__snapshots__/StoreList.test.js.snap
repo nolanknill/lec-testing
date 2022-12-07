@@ -5,23 +5,23 @@ Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <div
+      <section
         class="sale"
       >
         <button>
           Load more stores
         </button>
-      </div>
+      </section>
     </div>
   </body>,
   "container": <div>
-    <div
+    <section
       class="sale"
     >
       <button>
         Load more stores
       </button>
-    </div>
+    </section>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],
